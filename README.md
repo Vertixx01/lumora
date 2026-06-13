@@ -118,8 +118,6 @@ lumora/
 │   └── settings_storage_test.dart
 ├── android/
 ├── ios/
-├── PROJECT.MD
-├── docs/RESEARCH.md
 └── README.md
 ```
 

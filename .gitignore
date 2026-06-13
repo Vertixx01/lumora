@@ -86,5 +86,9 @@ ios/**/DerivedData/
 # Generated reports
 **/reports/
 
+# Private planning and research notes
+PROJECT.MD
+docs/RESEARCH.md
+
 # Local attachments or agent scratch files
 .agent/
