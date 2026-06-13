@@ -1,0 +1,4 @@
+storePassword=replace-me
+keyPassword=replace-me
+keyAlias=lumora
+storeFile=/absolute/path/to/lumora-release-key.jks

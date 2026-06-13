@@ -1,0 +1,71 @@
+{
+  "configVersion": "2026.06.13.1",
+  "network": "instagram",
+  "selectors": {
+    "feedContainer": [
+      "[role=\"feed\"]",
+      "[role=\"main\"] > div",
+      "main > div > section"
+    ],
+    "postItem": [
+      "[role=\"article\"]",
+      "article"
+    ],
+    "reelsTab": [
+      "a[href=\"/reels/\"]",
+      "a[href=\"/reels\"]",
+      "a[href^=\"/reels\"]",
+      "a[href*=\"/reels/\"]",
+      "a[href*=\"/reels\"]",
+      "a[href*=\"reels\"]",
+      "[aria-label*=\"Reels\"]",
+      "[aria-label*=\"reels\"]",
+      "[aria-label*=\"Reel\"]",
+      "[aria-label*=\"reel\"]"
+    ],
+    "exploreTab": [
+      "a[href=\"/explore/\"]",
+      "a[href=\"/explore\"]",
+      "a[href^=\"/explore\"]",
+      "a[href*=\"/explore/\"]",
+      "a[href*=\"/explore\"]",
+      "[aria-label*=\"Explore\"]",
+      "[aria-label*=\"explore\"]"
+    ],
+    "suggestedPosts": [
+      "[role=\"article\"]",
+      "article"
+    ],
+    "sponsoredPosts": [
+      "[role=\"article\"]",
+      "article"
+    ],
+    "liveAndShopping": [
+      "a[href*=\"/shopping/\"]",
+      "[aria-label*=\"Shop\"]",
+      "[aria-label*=\"shop\"]"
+    ],
+    "videoNodes": [
+      "video",
+      "[role=\"presentation\"] video"
+    ]
+  },
+  "labelMap": {
+    "sponsored": [
+      "Ad",
+      "Sponsored",
+      "Paid partnership",
+      "Gesponsert",
+      "Sponsorisé",
+      "Sponsorizzato",
+      "Patrocinado"
+    ],
+    "suggested": [
+      "Suggested for you",
+      "Empfohlen für dich",
+      "Suggestions pour vous",
+      "Suggeriti per te",
+      "Sugerencias para ti"
+    ]
+  }
+}
